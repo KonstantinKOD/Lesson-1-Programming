@@ -13,15 +13,22 @@ if (int.TryParse(Console.ReadLine(), out a) && int.TryParse(Console.ReadLine(), 
     if (a < b)
     {
         int max = b;
+        int min = a;
         Console.Write("max ");
         Console.WriteLine(max);
+        Console.Write("min ");
+        Console.WriteLine(min);
+
 
     }
     else
     {
         int max = a;
+        int min = b;
         Console.Write("max ");
         Console.WriteLine(max);
+        Console.Write("min ");
+        Console.WriteLine(min);
         
     }
 }
