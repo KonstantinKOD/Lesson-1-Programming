@@ -34,5 +34,5 @@ if (int.TryParse(Console.ReadLine(), out a) && int.TryParse(Console.ReadLine(), 
 }
 else
 {
-    Console.WriteLine("It's not working that");
+    Console.WriteLine("it doesn't work that way");
 }

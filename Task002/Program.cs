@@ -11,19 +11,19 @@ int b = int.Parse(Console.ReadLine());
 int c = int.Parse(Console.ReadLine());
 int max = a;
  
-if (a < b)
+if (a > max)
+{
+    max = a;
+
+}
+if (b > max)
 {
     max = b;
 
 }
-if (b < c)
+if (c > max)
 {
     max = c;
-
-}
-if (c < a)
-{
-    max = a;
 
 }
 
